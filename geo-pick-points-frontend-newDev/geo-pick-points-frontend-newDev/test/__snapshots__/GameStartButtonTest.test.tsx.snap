@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameStartButton Component renders correctly and matches snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="btn-space btn btn-primary"
+    data-testid="GameStartButton"
+    type="button"
+  >
+    Host Game
+  </button>
+</DocumentFragment>
+`;

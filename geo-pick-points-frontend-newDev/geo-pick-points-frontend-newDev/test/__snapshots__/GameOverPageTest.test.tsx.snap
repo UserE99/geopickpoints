@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameOverPage Component renders GameOverPage correctly and matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    style="padding-top: 20vh; text-align: center;"
+  >
+    <h1>
+      Game Over
+    </h1>
+    <p>
+      <strong>
+        Time:
+      </strong>
+       1 minutes and 0 seconds
+    </p>
+    <div>
+      <h2>
+        Scores
+      </h2>
+      <ul
+        style="list-style-type: none; padding: 0px;"
+      >
+        <li
+          style="margin: 10px 0px;"
+        >
+          <strong>
+            Team A
+          </strong>
+           - Score 100
+        </li>
+        <li
+          style="margin: 10px 0px;"
+        >
+          <strong>
+            Team B
+          </strong>
+           - Score 80
+        </li>
+      </ul>
+    </div>
+    <button
+      style="margin-top: 20px; padding: 10px 20px; font-size: 16px; cursor: pointer; border: solid; border-radius: 5px;"
+    >
+      Back to Start
+    </button>
+  </div>
+</DocumentFragment>
+`;

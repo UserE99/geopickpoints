@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GamePage Component renders the GamePage component and matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="game-page text-center"
+  >
+    <h4
+      style="margin: 1.5rem;"
+    >
+      Welcome to the GEO Pick Points, TestPlayer!
+    </h4>
+    <div>
+      <p />
+      <h4
+        style="padding-top: 10vh;"
+      >
+        You are the Host now!
+      </h4>
+      <h5>
+         It's time to manage your teams! 
+      </h5>
+      <button
+        class="btn btn-primary"
+        data-testid="HostBuildButton"
+        type="button"
+      >
+        Create Teams
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`renders the GamePage component and matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="game-page text-center"
+  >
+    <h4
+      style="margin: 1.5rem;"
+    >
+      Welcome to the GEO Pick Points, TestPlayer!
+    </h4>
+    <div>
+      <p />
+      <h4
+        style="padding-top: 10vh;"
+      >
+        You are the Host now!
+      </h4>
+      <h5>
+         It's time to manage your teams! 
+      </h5>
+      <button
+        class="btn btn-primary"
+        data-testid="HostBuildButton"
+        type="button"
+      >
+        Create Teams
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

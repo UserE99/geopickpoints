@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the GamePageUser component and matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="d-sm-flex align-items-center justify-content-between mb-4"
+  >
+    <h1
+      class="h3 mb-0 text-gray-800"
+      style="margin-top: 1.5rem; margin-left: 1.0rem;"
+    >
+       Hallo, TestPlayer !
+    </h1>
+  </div>
+  <div
+    class="row"
+    style="margin-left: 0.5rem; margin-right: 0.5rem;"
+  >
+    <div
+      class="col-xl-3 col-md-6 mb-4"
+    >
+      <div
+        class="card border-left-warning shadow h-100 py-2"
+        style="cursor: pointer;"
+      >
+        <div
+          class="card-body"
+        >
+          <div
+            class="row no-gutters align-items-center"
+          >
+            <div
+              class="col mr-2"
+            >
+              <div
+                class="text-xs font-weight-bold text-warning text-uppercase mb-1"
+              >
+                Dashboard
+              </div>
+              <div
+                class="h5 mb-0 font-weight-bold text-gray-800"
+              >
+                Dashboard
+              </div>
+            </div>
+            <div
+              class="col-auto"
+            >
+              <i
+                class="fas fa-comments fa-2x text-gray-300"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col-xl-3 col-md-6 mb-4"
+    >
+      <div
+        class="card border-left-primary shadow h-100 py-2"
+        style="cursor: pointer;"
+      >
+        <div
+          class="card-body"
+        >
+          <div
+            class="row no-gutters align-items-center"
+          >
+            <div
+              class="col mr-2"
+            >
+              <div
+                class="text-xs font-weight-bold text-primary text-uppercase mb-1"
+              >
+                Your Profile (Edit)
+              </div>
+              <div
+                class="h5 mb-0 font-weight-bold text-gray-800"
+              >
+                Name: TestPlayer
+              </div>
+            </div>
+            <div
+              class="col-auto"
+            >
+              <i
+                class="[object Object] fa-2x text-gray-300"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="row"
+    style="margin-left: 0.5rem;"
+  >
+    <div
+      class=" col-lg-7"
+    >
+      <div
+        class="card shadow mb-4"
+      >
+        <div
+          class="card-header py-3 d-flex flex-row align-items-center justify-content-between"
+        >
+          <h6
+            class="m-0 font-weight-bold text-primary"
+          >
+            Join Team to play
+          </h6>
+        </div>
+        <div
+          class="card-body"
+        >
+          <div
+            class="container"
+          >
+            <div
+              class="vh-20 d-flex justify-content-center align-items-center row"
+            >
+              <div
+                class="col-lg-8 col-md-10 col-12"
+              >
+                <form>
+                  <div
+                    class="row"
+                  >
+                    <div
+                      class="text-center text-primary"
+                    >
+                      Invite-Code:
+                    </div>
+                    <div
+                      class="form-outline"
+                    >
+                      <input
+                        class="form-control form-control-lg"
+                        id="code_Test"
+                        name="codeInvite"
+                        placeholder="enter your code"
+                        type="text"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="mt-4 "
+                  >
+                    <button
+                      class="btn btn-warning"
+                      id="TestID"
+                      type="submit"
+                    >
+                      Go to Lobby Game
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="col-xl-4 col-lg-5"
+    >
+      <div
+        class="card shadow mb-4"
+      >
+        <div
+          class="card-header py-3 d-flex flex-row align-items-center justify-content-between"
+        >
+          <h6
+            class="m-0 font-weight-bold text-primary"
+          >
+            Create Game to be Host
+          </h6>
+        </div>
+        <div
+          class="card-body"
+        >
+          <button
+            class="btn btn-primary"
+            data-testid="HostBuildButton"
+            type="button"
+          >
+            Create Teams
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

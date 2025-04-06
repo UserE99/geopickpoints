@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HostBuildButton Component renders correctly and matches snapshot 1`] = `
+<DocumentFragment>
+  <button
+    class="btn btn-primary"
+    data-testid="HostBuildButton"
+    type="button"
+  >
+    Create Teams
+  </button>
+</DocumentFragment>
+`;

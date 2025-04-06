@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`joinInTeam Thunk should handle error when joining team 1`] = `
+{
+  "error": {
+    "message": "Rejected",
+  },
+  "meta": {
+    "aborted": false,
+    "arg": {
+      "nickName": "Team A",
+      "playerID": "123",
+      "teamId": "T001",
+    },
+    "condition": false,
+    "rejectedWithValue": true,
+    "requestId": "tBrKxnG9ULwUhiin9UC1F",
+    "requestStatus": "rejected",
+  },
+  "payload": "HTTP error! Status: 400",
+  "type": "joinInTeam/rejected",
+}
+`;
+
+exports[`joinInTeam Thunk should successfully join a team 1`] = `
+{
+  "meta": {
+    "arg": {
+      "nickName": "Team A",
+      "playerID": "123",
+      "teamId": "T001",
+    },
+    "requestId": "qk0oUwmgAsV3OE02z1-WD",
+    "requestStatus": "fulfilled",
+  },
+  "payload": {
+    "data": {
+      "nickName": "Team A",
+      "playerID": "123",
+      "teamId": "T001",
+    },
+    "success": true,
+  },
+  "type": "joinInTeam/fulfilled",
+}
+`;
+
+exports[`unjoinTeam Thunk should handle error when unjoining team 1`] = `
+{
+  "error": {
+    "message": "Rejected",
+  },
+  "meta": {
+    "aborted": false,
+    "arg": {
+      "playerID": "123",
+      "teamId": "T001",
+    },
+    "condition": false,
+    "rejectedWithValue": true,
+    "requestId": "jeu8nU0TmLnMBvyoBXGhz",
+    "requestStatus": "rejected",
+  },
+  "payload": "HTTP error! Status: 400",
+  "type": "unjoinTeam/rejected",
+}
+`;
+
+exports[`unjoinTeam Thunk should successfully unjoin a team 1`] = `
+{
+  "meta": {
+    "arg": {
+      "playerID": "123",
+      "teamId": "T001",
+    },
+    "requestId": "nkUpmfTXyufUnw5G-Vj_g",
+    "requestStatus": "fulfilled",
+  },
+  "payload": {
+    "success": true,
+  },
+  "type": "unjoinTeam/fulfilled",
+}
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ReadQACode Component does not render the AddPlayerDialog when no valid code is in the URL 1`] = `<DocumentFragment />`;
+
+exports[`ReadQACode Component renders the AddPlayerDialog when a valid code is in the URL 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="add-player-dialog"
+  />
+</DocumentFragment>
+`;

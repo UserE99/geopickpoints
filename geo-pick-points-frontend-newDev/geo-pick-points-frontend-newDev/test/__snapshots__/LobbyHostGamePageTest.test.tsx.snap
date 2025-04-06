@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LobbyHostGamePage Component renders LobbyHostGamePage correctly and matches snapshot 1`] = `
+<DocumentFragment>
+  <h3
+    style="margin: 1.5rem;"
+  >
+    Your Lobby Host
+  </h3>
+  <div
+    class="container mt-5"
+  >
+    <div
+      class="card"
+    >
+      <div
+        class="card-header text-primary"
+      >
+        <h4>
+          List of your Teams
+        </h4>
+      </div>
+      <div
+        class="text-center my-4"
+      >
+        <h5>
+          Invite QR Code
+        </h5>
+        <div>
+           
+        </div>
+        <div
+          style="margin-top: 1rem; margin-bottom: 0rem;"
+        >
+          <h5
+            class="fw-bold"
+          >
+            Host Name : 
+          </h5>
+        </div>
+      </div>
+      <div
+        class="card-body row"
+      >
+        <p>
+          No teams available
+        </p>
+      </div>
+    </div>
+    <button
+      class="btn btn-danger"
+      type="button"
+    >
+       Start Game!
+    </button>
+  </div>
+</DocumentFragment>
+`;

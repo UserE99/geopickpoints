@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Thunk actions should match snapshot for updateUser success response 1`] = `undefined`;
+
+exports[`Thunk actions should match snapshot for updateUserPassword success response 1`] = `undefined`;
