@@ -1,6 +1,11 @@
 # 📍 GeoPickPoints – Backend
 
-**GeoPickPoints** ist ein Backend-System zur Verwaltung geografischer Punkte (Points of Interest). Es bietet eine sichere Nutzerregistrierung mit E-Mail-Verifizierung, Login mit JWT, sowie umfangreiche REST-APIs zur Interaktion mit POIs, Nutzern, Teams, Spielern und Spielinstanzen. Dieses Projekt wurde im Rahmen eines Studienprojekts entwickelt und basiert vollständig auf TypeScript.
+**GeoPickPoints** ist das Backend eines standortbasierten Multiplayer-Spiels, bei dem Spieler geografische Punkte (Points of Interest) auf einer Karte in Echtzeit entdecken und für sich beanspruchen ("claimen") müssen. 
+
+Das Backend verwaltet dabei alle Spiel- und Nutzerdaten: Registrierung mit E-Mail-Verifizierung, Login mit JWT-Authentifizierung, sowie die REST-APIs zur Verwaltung von POIs, Spielinstanzen, Teams und Spielern. 
+
+Die gesamte Anwendung wurde im Rahmen eines Studienprojekts entwickelt. Das Backend basiert vollständig auf TypeScript, Express.js und MongoDB.
+
 
 ---
 
@@ -19,25 +24,24 @@
 
 ### 1. Repository klonen
 
-bash
+```
 git clone https://github.com/DEINUSERNAME/geo-pick-points-backend.git
 cd geo-pick-points-backend
-
+```
 ### 2. Abhängigkeiten installieren
 
-bash
-npm install
 
+```npm install```
 ## ▶️ Anwendung starten
 
 ### Entwicklungsmodus
 
-bash
-npm run dev
+
+```npm run dev```
 
 ## 📁 Projektstruktur
 
-plaintext
+```
 src/
 ├── model/               # Datenmodelle (Mongoose)
 │   ├── GameInstanceModel.ts
@@ -67,5 +71,5 @@ src/
 │   ├── index.ts
 │   ├── logger.ts
 │   └── Resources.ts
-
+```
 
