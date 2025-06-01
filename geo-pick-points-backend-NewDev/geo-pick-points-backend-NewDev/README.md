@@ -19,25 +19,25 @@
 
 ### 1. Repository klonen
 
-```bash
+bash
 git clone https://github.com/DEINUSERNAME/geo-pick-points-backend.git
 cd geo-pick-points-backend
 
 ### 2. Abhängigkeiten installieren
 
-```bash
+bash
 npm install
 
 ## ▶️ Anwendung starten
 
 ### Entwicklungsmodus
 
-```bash
+bash
 npm run dev
 
 ## 📁 Projektstruktur
 
-```plaintext
+plaintext
 src/
 ├── model/               # Datenmodelle (Mongoose)
 │   ├── GameInstanceModel.ts
